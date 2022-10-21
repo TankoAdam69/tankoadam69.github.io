@@ -1,7 +1,40 @@
 .background-img-color {
     background-color:#000000; 
-    background-image: url(monster.png); background-repeat:no-repeat; background-position: right; background-size: 6cm; font-size:2rem; 
+    background-image: url(monster.png); 
+    background-repeat:no-repeat; 
+    background-position: right; 
+    background-size: 6cm; 
+    font-size:2rem; 
+    
 }
 .white {
+    color: white;
+}
+
+p {
+    font-size: 25px;
+}
+
+td  {
+    font-size: 20px;
+    border-bottom: 2px solid white;
+}
+
+th {
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    padding: 5px;
+} 
+
+table {
+    color: white;
+    border-collapse: collapse;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    padding: 5px;
+    text-align: center;
+}
+
+h2{
     color: white;
 }
