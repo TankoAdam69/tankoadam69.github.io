@@ -6,6 +6,7 @@ p {
 td  {
     font-size: 20px;
     border-bottom: 2px solid white;
+    
 }
 
 th {
@@ -21,13 +22,16 @@ table {
     border-bottom: 2px solid white;
     padding: 5px;
     text-align: center;
+    
 }
-
-
 
 body{
     color: white;
-    background-color:#000000; 
+    background-color:#000000;
+    font-family: sans-serif;
+    display: block; 
+    margin-right: 150px;
+    margin-left: 150px;
 }
 
 li {
@@ -37,4 +41,21 @@ li {
 h1 {
     color:whitesmoke; 
     font-size: 40px;
+    
+}
+
+img { background-color: black;
+    float: left;
+  padding: 5px;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+h2{
+    font-size:30px;
+    
+}
+
+.logo{
+    float:right;
 }
